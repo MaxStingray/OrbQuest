@@ -2137,7 +2137,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1397645011773448, guid: aa5017c0ab58d9148a7d075e6a206f62, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114040764358070312, guid: aa5017c0ab58d9148a7d075e6a206f62,
         type: 2}
@@ -2146,7 +2146,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa5017c0ab58d9148a7d075e6a206f62, type: 2}
-  m_RootGameObject: {fileID: 1359699577}
   m_IsPrefabParent: 0
 --- !u!1 &1058555825
 GameObject:
@@ -2649,54 +2648,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1278151787}
---- !u!1 &1359699577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1397645011773448, guid: aa5017c0ab58d9148a7d075e6a206f62,
-    type: 2}
-  m_PrefabInternal: {fileID: 1019952500}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1359699579}
-  - component: {fileID: 1359699578}
-  m_Layer: 0
-  m_Name: DungeonParametersDev
-  m_TagString: parametersObject
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1359699578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114040764358070312, guid: aa5017c0ab58d9148a7d075e6a206f62,
-    type: 2}
-  m_PrefabInternal: {fileID: 1019952500}
-  m_GameObject: {fileID: 1359699577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e33d1da3ba24d4cbebd0b016ef0876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settingsMenu: {fileID: 0}
-  sizeX: 60
-  sizeZ: 60
-  maxRooms: 18
-  numFloors: 2
---- !u!4 &1359699579
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4227783208736878, guid: aa5017c0ab58d9148a7d075e6a206f62,
-    type: 2}
-  m_PrefabInternal: {fileID: 1019952500}
-  m_GameObject: {fileID: 1359699577}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 631.85944, y: 279.40533, z: -586.08057}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391577107
 GameObject:
   m_ObjectHideFlags: 0

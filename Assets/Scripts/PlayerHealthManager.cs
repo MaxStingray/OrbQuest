@@ -20,9 +20,9 @@ public class PlayerHealthManager : MonoBehaviour {
     {
         if (manager == null)
             manager = GameObject.FindObjectOfType<RoomMapManager>();
-
-        if (manager.currentFloor > 1)
-            initialLoad = true;
+        else
+            if (manager.currentFloor > 1)
+                initialLoad = true;
     }
 
     // Use this for initialization
